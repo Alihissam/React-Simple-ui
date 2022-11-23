@@ -1,0 +1,16 @@
+.products_section{
+    padding-top: 8rem;
+    width: 100%;
+    height: 100%;
+    /* color: #fff; */
+    padding-bottom: 9rem;
+}
+
+
+
+
+@media screen  and (max-width: 991px){
+    .products_section{
+        text-align: center;
+    }   
+}

@@ -1,0 +1,78 @@
+.services__section{
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    background-color: #0013de;
+    padding-bottom: 5rem;
+}
+.project-wrapper{
+    padding-top: 4rem;
+}
+.main__heading{
+    color: #fff;
+    font-size: 35px;
+    font-weight: normal;
+}
+.box_container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.box{
+    border: 1px solid gray;
+    height: 400px;
+    background-color: rgb(34, 31, 31);
+    border: none;
+    position: relative;
+    transition: .2s ease all;
+    z-index: 0;
+}
+.box:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+    transform: scale(1.09);
+}
+/* .box:hover{
+    transition: .5s ease;
+    background-color: green;
+} */
+.stone{
+    font-size: 40px;
+    color: rgb(185, 177, 177);
+}
+.box_logo{
+    padding-top: 2rem;
+}
+.heading{
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+}
+.price{
+    padding-top: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+.car_title{
+    font-size: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #fff;
+}
+.box_button{
+    padding-top: 3rem;
+}
+.choose_button{
+    background-color: #0013de;
+    border: none;
+    border-radius: 4px;
+}
+@media screen and (max-width: 991px){
+    .box{
+        margin: 2rem;
+    }
+}
+
